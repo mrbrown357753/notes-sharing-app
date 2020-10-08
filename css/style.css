@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Epilogue', sans-serif;
+}
+/* navbar */
+#navbar{
+    background: white;
+    overflow: auto;
+    color: #333;
+}
+.container{
+    max-width: 1100px;
+    overflow: auto;
+    margin: auto;
+    padding: 0 20px;
+}
+/* .icon-style{
+    color:#1ADEEE;
+} */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem;
+}
+#navbar h1{
+    font-size: 1.3rem;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0.7rem 0.7rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+}
+#navbar ul li a:hover{
+    background: #333;
+    color: #fff;
+}
+/* section */
+#section{
+    background:white ;
+    height: 84vh;
+}
+/* .container .main-section{
+    margin-top: 50px;
+} */
+.container h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 160px;
+    margin-bottom: 30px;
+}
+.container p.moto{
+    text-align: center;
+    font-size: 1.4rem;
+}
+.container p.class-selection{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 50px;
+}
+.container .items
+{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.container .item{
+    padding: 1.5rem 1.5rem;
+    border: solid 1px #333333;
+    /* margin-right: 20px; */
+}
+.container .item p{
+    font-size: 1.3rem;
+}
+/* footer */
+.main-footer{
+    padding: 1rem 0;
+}
+.main-footer p{
+    text-align: center;
+    font-size: 1.3rem;
+
+}

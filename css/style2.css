@@ -11,17 +11,6 @@ body{
     background: white;
     overflow: auto;
     color: #333;
-}
-.container{
-    max-width: 1100px;
-    overflow: auto;
-    margin: auto;
-    padding: 0 20px;
-}
-/* .icon-style{
-    color:#1ADEEE;
-} */
-#navbar{
     display: flex;
     justify-content: space-between;
     z-index: 1;
@@ -49,46 +38,50 @@ body{
     color: #fff;
 }
 /* section */
-#section{
-    background:white ;
-    height: 84vh;
+#main-section{
+    height: 67vh;
 }
-/* .container .main-section{
-    margin-top: 50px;
-} */
-.container h1{
-    font-size: 2.5rem;
+.container{
+    max-width: 1100px;
+    overflow: auto;
+    margin: auto;
+    padding: 0 15px;
+    margin-top: 120px;
+}
+.container .section-heading{
+    font-size: 2rem;
     text-align: center;
-    margin-top: 160px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
-.container p.moto{
-    text-align: center;
-    font-size: 1.4rem;
-}
-.container p.class-selection{
-    font-size: 1.3rem;
-    text-align: center;
-    margin-top: 50px;
-}
-.container .items
-{
-    margin-top: 2rem;
+.container .items{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
-.container .item{
-    padding: 1.5rem 1.5rem;
+.container .items .item{
+    border: solid 1px #333333;
+    border-radius: 10px;
+    height: 15rem;
+    width: 12rem;
+}
+.container .items .item .departments{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 60px;
+    font-size: 1.2rem;
+}
+.container .items .item .subdiv1,.container .items .item .subdiv2{
+    height: 2rem;
+    width: 4rem;
     border: solid 1px #333333;
     border-radius: 5px;
-    /* margin-right: 20px; */
+    margin-left: 4rem;
 }
-.container .item p{
-    font-size: 1.3rem;
+.container .items .item .subdiv1{
+    margin-bottom: 20px;
 }
-.container .item a{
-    text-decoration: none;
-    color:black;
+.container .items .item .subdiv1 .sem,.container .items .item .subdiv2 .sem{
+    text-align: center;
+    margin-top: 0.5rem;
 }
 /* footer */
 .main-footer{
